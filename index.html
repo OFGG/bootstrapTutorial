@@ -2,15 +2,39 @@
 <html lang='eng'>
 	<head>
 		<title>Blasting off with Bootstrap</title>
+		<link rel="stylesheet" type="text/css" href='bootstrap-3.3.2-dist/css/bootstrap.css'>
 	</head>
 	<body>
-		<h1>Blasting off with Bootstrap</h1>
-		<h2>The fastest way to space</h2>
-		<p>Make your way to space on the comfor tof our won rocket, elevator or transporter.</p>
-		<h3>Book today!</h3>
-		<p>Even if your traveling tomorrow, you can still get tickets today.</p>
-		<h3>Go anywhere.</h3>
-		<p>If you need to get to space today, why not try out our transporter?</p>
-		<h3>RocketBus&reg</h3>
-		<p>For cheap fares, catche the next Rocketbus to the stars.</p>
+	<div class="container">
+		<div class='row'><div class='col-md-12'><h1>Blasting off with Bootstrap</h1></div></div>
+		<div class='row'>
+			<div class='col-md-6'>
+				<h2>The Fastest Way to Space</h2>
+		      <p>Make your way to space in the comfort of your own rocket, elevator or transporter.</p>
+		      <button type='button'>Take the Tour</button>
+		      <button type='button'>Book Tickets Now</button>
+		   </div>
+		   <div class='col-md-4 col-md-offset-1'>
+		      <img src='images/blast.jpg' alt='Blasting Off' height="200" width="300">
+		   </div>
+	   </div>
+	</div>
+	<div class="container-fluid">
+		<div class='row'>
+			<div class='col-md-4'>
+				<h3>Book today!</h3>
+				<p>Even if your traveling tomorrow, you can still get tickets today.</p>
+			</div>
+			<div class='col-md-4'>
+				<h3>Go anywhere.</h3>
+				<p>If you need to get to space today, why not try out our transporter?</p>
+			</div>
+			<div class='col-md-4'>
+				<h3>RocketBus&reg</h3>
+				<p>For cheap fares, catche the next Rocketbus to the stars.</p>
+			</div>
+		</div>
+	</div>
+	<script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+	<script src="bootstrap-3.3.2-dist/js/bootstrap.js"></script>
 	</body>
